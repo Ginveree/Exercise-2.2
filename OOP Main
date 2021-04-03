@@ -1,0 +1,46 @@
+package OOP;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("================================================\n");
+		Pencil Graphite = new Pencil();//create new object named as Graphite
+		System.out.println("Type of pencil: " + Graphite.type1);
+		System.out.println("Size: " + Graphite.size + "cm");
+		System.out.println("Brand: " + Graphite.brand1);
+		System.out.println("The uses of a Coloured Pencil:");
+		Graphite.drawing();
+		Graphite.writing();
+		System.out.println();
+		
+		Pencil Charcoal = new Pencil();//create new object named as Charcoal
+		System.out.println("Type of pencil: " + Charcoal.type2);
+		System.out.println("Size: " + Charcoal.size + "cm");
+		System.out.println("Brand: " + Charcoal.brand2);
+		System.out.println("The uses of a Charcoal Pencil:");
+		Charcoal.sketching();
+		Charcoal.writing();
+		System.out.println();
+		
+		System.out.println("================================================");
+		
+		
+        Sheep Merino = new Sheep();//create new object named as Merino
+        System.out.println("\nName of sheep: " + Merino.s1);
+        Merino.merinoSize();
+        System.out.println("Colour: " + Merino.colour);
+        System.out.println("Milk produced: " + Merino.milk + " litre per day");
+        
+        System.out.println();
+        
+        Sheep Dorset = new Sheep();//create new object named as Dorset
+        System.out.println("Name of sheep: " + Dorset.s2);
+        Dorset.dorsetSize();
+        System.out.println("Wool produced: " + Dorset.wool + " pound each year");
+        System.out.println("Momu usually born " + Dorset.born + " lambs at each birthing event");
+        
+        System.out.println("\n================================================");
+	}
+
+}
