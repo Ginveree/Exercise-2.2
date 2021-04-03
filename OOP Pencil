@@ -1,0 +1,22 @@
+package OOP;
+
+public class Pencil {
+	//properties of pencil
+	String type1 = "Colored pencil", type2 = "Charcoal pencil";
+	int size = 19;
+	String brand1 = "Faber-Castell", brand2 = "Pentel";
+	
+	//methods/behaviours in Pencil
+	void drawing() {
+		System.out.println("Drawing");
+	}
+	
+	void sketching() {
+	    System.out.println("Sketching");
+	 }
+	 
+    void writing() {
+	    System.out.println("Writing");	 
+	 }
+
+}
